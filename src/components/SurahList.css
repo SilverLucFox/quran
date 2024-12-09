@@ -1,0 +1,48 @@
+.surah-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px; /* Adds space between items */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #317a35;
+}
+
+.surah-item {
+  width: 15%; /* Adjusted for better visibility on different screen sizes */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for better visual separation */
+  text-align: center; /* Center the text */
+}
+
+.surah-item:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+  transform: scale(1.02); /* Slightly enlarges the item on hover */
+}
+
+.surah-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #317a35;/* Changed to a more prominent color */
+}
+
+.surah-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+.surah-item a{
+  color: #317a35;
+  
+  text-decoration: none;  
+}
